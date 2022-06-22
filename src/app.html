@@ -1,0 +1,20 @@
+<template>
+
+	<lightning-card variant="Narrow" title="Novo Card" icon-name="standard:account">
+		<p class="slds-p-horizontal_small">Apelidos</p>
+		<ul class="slds-p-horizontal_small">
+			<template for:each={numero} for:item=itemCont>
+				<li key={itemCont.Id}> {itemCont.Nome} {itemCont.Cargo}</li>
+			</template>
+
+
+			<li>Cecí</li>
+			<li>Cecí</li>
+			<li>Cecí</li>
+
+		</ul>
+
+	</lightning-card>
+
+
+</template>
